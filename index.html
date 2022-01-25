@@ -25,9 +25,9 @@
             <a class="btn-registers" href=""><i class="fa fa-twitter"></i>&NonBreakingSpace; Tweet</a>
             <a class="btn-registers" href=""><i class="fa fa-wrench"></i>&NonBreakingSpace; Support</a>
 
-            <a class="btn-register" href="" style="background-color: white;"><i
+            <a class="btn-register" href=""><i
                 class="fa fa-sign-in"></i>&NonBreakingSpace; Register</a>
-            <a class="btn-register" href="" style="background-color: white;"><i class="fa fa-user-circle-o"></i>
+            <a class="btn-register" href=""><i class="fa fa-user-circle-o"></i>
               &NonBreakingSpace; Login</a>
           </div>
         </div>
@@ -45,12 +45,8 @@
 
 
         <div class="row">
-          <div class="col-1-of-4">
-            <div>
-              <label for="venue"><i class="fa fa-map-marker"></i>&NonBreakingSpace; Destination</label>
-              <input type="text" placeholder="Venue" id="venue">
-            </div>
-          </div>
+          <form action="/search" method="GET">
+            <input type="hidden" name="_token" value="kCimMSfARHeEXlcbnPHoQuc4R62xf2Thq2tlffCm">
           <div class="col-1-of-4">
             <div class="d-flex">
               <div class="col-1-of-6">
@@ -59,23 +55,23 @@
                   <input type="date" placeholder="date" id="date">
                 </div>
               </div>
-
             </div>
           </div>
           <div class="col-1-of-4">
             <div>
-              <label for="Musicians"><i class="fa fa-users"></i>&NonBreakingSpace; Musicians</label>
-              <input type="text" placeholder="Musicians" id="Musicians">
+              <label for="venue"><i class="fa fa-search"></i>&NonBreakingSpace; Search</label>
+              <input type="text" placeholder="Type here" id="venue">
             </div>
           </div>
           <div class="col-1-of-4">
             <div>
               <label for="search">&NonBreakingSpace;</label>
-              <input type="submit" style="background-color: #ccc;" class="Search" value="Search">
+              <input type="submit" style="background-color: #F1F7FD" class="Search" value="Search">
             </div>
           </div>
         </div>
       </div>
+    </form>
     </section>
   </main>
 
