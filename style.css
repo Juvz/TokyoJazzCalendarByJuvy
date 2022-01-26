@@ -20,7 +20,7 @@
 
 /* CSS for header */
 header {
-  background: #F1F7FD !important;
+  background: #145889 !important;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -41,7 +41,7 @@ header {
     display: inline-flex;
     margin-top: 2%;
     width: 130px;
-    height: 50px;
+    height: 100px;
   }
 }
 
@@ -59,18 +59,19 @@ header {
   display: inline-block;
   padding: 10px;
   font-size: 15px;
-  color:#252525;
+  color:#fff;
 }
 .btn-register{
   color: #F1F7FD;
-  background-color: #145889;
+  background-color: #252525;
   padding: 10px;
   font-size: 15px;
   border-radius: 50px;
 }
 .btn-registers:hover
  {
-  color: #117EC3;
+  /* color: #117EC3; */
+  color: #5bee3e;
 }
 .btn-register:hover{
   color: #5bee3e;
@@ -96,7 +97,8 @@ and (max-width: 568px) {
   display: inline-flex;
   position: relative;
   border-radius: 4px;
-  background-color: #67b4eb;
+  color: #F1F7FD;
+  background-color: #252525;
   }
 }
 @media screen and (max-device-width: 480px) {
