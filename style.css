@@ -77,10 +77,26 @@ header {
 @media (max-width: 600px) {
 .btn-registers {
  display: none;
+
  }
+}
+@media screen and (max-device-width: 480px) {
+  .btn-registers {
+    display: none;
+    }
 }
 
 @media (max-width: 600px) {
+  .btn-register {
+  font-size: 14px;
+  padding: 10px;
+  display: inline-flex;
+  position: relative;
+  border-radius: 50px;
+  background-color: #67b4eb;
+  }
+}
+@media screen and (max-device-width: 480px) {
   .btn-register {
   font-size: 14px;
   padding: 10px;
