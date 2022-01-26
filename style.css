@@ -108,7 +108,8 @@ and (max-width: 568px) {
   display: inline-flex;
   position: relative;
   border-radius: 50px;
-  background-color: #67b4eb;
+  color: #F1F7FD;
+  background-color: #252525;
   }
 }
 
